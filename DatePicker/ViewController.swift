@@ -22,11 +22,6 @@ class ViewController: UIViewController {
         Timer.scheduledTimer(timeInterval: interval, target: self, selector: timeSelector, userInfo: nil, repeats: true)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func changeDatePicker(_ sender: UIDatePicker) {
         let datePickerView = sender
         
